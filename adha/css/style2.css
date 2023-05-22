@@ -21,20 +21,26 @@ h1, h2, h3 {font-family: 'Tajawal', sans-serif !important;}
 /*********** widths **********************/
 .col-md-4 {width: 30% !important;}
 .col-sm-4 {width: 30% !important;}
-.col-xs-4 {width: 30% !important;}
+.col-xs-4 {width: 33% !important;}
+/*****************Header********************/
+.hezer{ background: url('../../adha/img/herader.png')center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 415px;
+    position: relative;  }
 /*****************tabs*******************/
 
 .navtop{
 	width: 50%;
     margin: auto;
-    margin-top:50px;
+    margin-top:25px;
 }
 .tab-content {
     padding: 40px;
     /*margin-top: -20px;*/
 }
-#tab-ad7a .nav-link {
-    background-color: #988A7D;
+#tab-ad7a a.nav-link {
+    background-color: #B2A59C;
 }
 #tab-ad7a .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
@@ -69,6 +75,7 @@ border-radius: 25px !important;
 	background: #FFFFFF;
 	border: 2px solid #988A7D;
 }
+
 .titop{ padding-top: 10px}
 .don-active{ background: #E84D1C !important; color: #ffffff !important; border-color: #E84D1C!important;  }
 .don-active small {color: #ffffff !important;}
@@ -76,7 +83,13 @@ border-radius: 25px !important;
 .don-damd small{color: #FFFFFF!important;}
 .do-na{font-family: 'Tajawal', sans-serif !important; }
 #tab-ad7a small { font-family: 'Tajawal', sans-serif !important;}
-#tab-ad7a .form-control { display: flex; margin: auto; margin-top: 30px; height: 50px;}
+.fildo { padding-top: 20px;}
+#tab-ad7a .form-control { display: flex; margin: auto; margin-top: 15px; height: 50px;}
+
+#tab-ad7a .nav-pills .nav-link:focus, .nav-pills .show>.nav-link:focus,#tab-ad7a .nav-pills .nav-link:hover, .nav-pills .show>.nav-link:hover {
+    background-color: #F16531 !important;
+}
+
 /*#tab-ad7a select { height: 60px; background:#F5F5F5; color: #707070; font-size: 30px; }*/
 /**************** donoz ************/
 .donoz { position: absolute;width: 53.5px;margin-top: 20px;z-index: 1;margin-right: -21px;}
@@ -89,7 +102,7 @@ line-height: 25px;
 align-items: center;
 text-align: center;
 text-transform: uppercase;
-padding-top: 20px;
+padding-top: 50px;
 color: #707070;}
 /******************* Breadcrunb ****************/
 .breadz { padding: 25px 25px 10px 0px;}
@@ -128,10 +141,10 @@ color: #707070;}
 }
 /****************Family********************/
 .family_num {
-    position: relative; padding-top: 31px
+    position: relative; padding-top: 15px
 }
 /******************num*****************/
-.tot-mon h2 {background: #ffffff; border-radius: 12px; height: 60px; line-height: 30px;margin-top: 10px; padding-top: 10px;font-family: 'Tajawal', sans-serif !important;font-style: normal;
+.tot-mon h2 {background: #ffffff; border-radius: 12px; height: 60px; line-height: 30px;margin-top: 15px; padding-top: 10px;font-family: 'Tajawal', sans-serif !important;font-style: normal;
 font-weight: 700;font-size: 32px;color: #87786C;}
 .tot-mon span { font-family: arial; color: color: #685A4D;}
 .tot-mon small {color: color: #685A4D;font-family: 'Tajawal', sans-serif !important;font-weight: 700;font-size: 32px !important;}
@@ -151,14 +164,18 @@ font-weight: 700;font-size: 32px;color: #87786C;}
 }
 /*********** tem Money *********/
 .item-mon { display: inline-block; position: relative;}
-.item-mon small{ font-family: 'Inter';font-style: normal;font-weight: 400;font-size: 24px;line-height: 34px;color: #988A7D;}
+.don-item small{ font-family: 'Inter';font-style: normal;font-weight: 400;font-size: 24px;line-height: 34px;}
+
+#tab-ad7a .don-item:focus, #tab-ad7a .don-item:hover {background: #E84D1C !important;
+    color: #ffffff !important;
+    border-color: #E84D1C!important;}
 /********* Question **************/
 .panel-default {border-color: #E6E1DE;}
 .infos { margin-top: 20px;}
 .nav-tabs>li>a { height: 60px; padding: 15px 60px !important;font-family: 'Tajawal';
 font-style: normal;
 font-weight: 500;
-font-size: 24px;background: none !important;}
+font-size: 21px;background: none !important;}
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs .nav>li>a:focus, .nav-tabs .nav>li>a:hover, .nav-tabs .nav-tabs>li>a:hover {
     color: #F26530;
     cursor: pointer;
@@ -174,8 +191,10 @@ font-size: 24px;background: none !important;}
 		font-family: 'Tajawal';
 		font-style: normal;
 		font-weight: 700;
-		font-size: 24px;
+		font-size: 21px;
 }
+.list-heading h2 { font-size: 20px; font-weight: 700;color: #6C727F;}
+#tab-ad7a .nav-link:hover {background-color: #988A7D !important; color: #ffffff;}
 .tab-content {  background: #FFFFFF;}
 
 /*******/
@@ -235,11 +254,12 @@ font-size: 24px;background: none !important;}
   color: #ff8383;
 }
 .list-text {
-  background: #FFF8F6;
+  /*background: #FFF8F6;*/
   display: none;
   overflow: hidden;
 	font-size: 18px;
 	padding: 25px;
+	line-height: 30px;
 }
 
 /******/
@@ -474,6 +494,7 @@ font-size: 24px;background: none !important;}
 		}
 		@media only screen and (max-width: 991px)
 				{
+					.tot-mon h2 {background: none ;}
 		.navtop-paid {width: 85%;}
 		.knettz { margin-right: 40% !important;}
 				}
@@ -490,6 +511,7 @@ font-size: 24px;background: none !important;}
 		}
 @media only screen and (max-width: 767px)
 		{
+			.hezer{ background: url('../../adha/img/tablet.png')left no-repeat;height: 220px;}
 			.navtop{ width: 80%;}
 			#tab-ad7a .don-item {
 			width: 100px !important;
@@ -615,6 +637,7 @@ font-size: 24px;background: none !important;}
 		.tot-mon h2{ font-size: 25px;}
 		.tot-mon small {font-size: 25px !important;}
 		.nav-tabs>li>a {padding: 15px 30px !important;}
+		.hezer{ background: url('../../adha/img/mobile.png')center no-repeat;height: 337px;}
 		}
 @media only screen and (max-width: 350px)
 		{
