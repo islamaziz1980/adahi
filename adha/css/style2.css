@@ -218,7 +218,7 @@ font-size: 21px;background: none !important;}
 		font-weight: 700;
 		font-size: 21px;
 }
-.list-heading h2 { font-size: 20px; /*font-weight: 700;*/color: #6C727F;}
+.list-heading h2 { font-size: 16px; font-weight: 500;color: #333;}
 #tab-ad7a .nav-link:hover {background-color: #988A7D !important; color: #ffffff;}
 .tab-content {  background: #FFFFFF;}
 .tab-kind{ padding-top: 0px;}
@@ -287,9 +287,20 @@ font-size: 21px;background: none !important;}
   /*background: #FFF8F6;*/
   display: none;
   overflow: hidden;
-	font-size: 18px;
-	padding: 25px;
-	line-height: 30px;
+	font-size: 14px;
+  font-weight: 500;
+  color:#333;
+  padding: 1rem 4rem;
+	line-height: 3rem;
+}
+.reports .caption a {
+    display: block;
+    margin: auto;
+    font-size: 13px;
+    color: #F26530;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
 }
 section.infos .nav-tabs {
     border-color: #ffffff;
@@ -539,7 +550,7 @@ li.tot { width:45% !important;}
 				{
 					.tot-mon h2 {background: none ;}
 		.navtop-paid {width: 85%;}
-
+    .paid-se {margin-top: 0px;}
   li.tot { width:45% !important;}
   #anynous ul li .check {right: 10%;}
   		.knettz { margin-right: -7% !important;}
@@ -568,6 +579,7 @@ li.tot { width:45% !important;}
 		}
     li.tot { width:88% !important;}
     .knettz {margin-right: -25% !important;}
+    .tab-pay-content {padding-bottom: 10px;}
 		}
 		@media only screen and (max-width: 739px)
 				{
