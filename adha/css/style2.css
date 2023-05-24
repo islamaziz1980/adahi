@@ -367,6 +367,7 @@ section.infos .nav-tabs {
     width: 14px;
 }
 .pop { font-size: 20px; text-align: center;}
+.list-text p{ text-align: justify; width: 95%}
 .tab-pay-content { background: #ffffff !important; margin-top :10px; margin-bottom: 10px;}
 .vlbo{float: none !important;}
 .vlbo label { display: inline-flex; font-size: 24px; padding-top: 20px; padding-left: 10px;}
@@ -380,7 +381,7 @@ section.infos .nav-tabs {
 }
  .fonz{ margin-top: 0px !important; border-radius: 0px 12px 12px 0px !important;font-size: 18px;}
 .dopz { border-radius: 12px 0px 0px 12px !important; color:  #6C727F}
-
+.fonozo{ margin-bottom: 10px;}
 /*********************radio ********************/
 #anynous ul{
   list-style: none;
@@ -395,9 +396,10 @@ section.infos .nav-tabs {
   position: relative;
   float: right;
 
-  height: 130px;
+  height: 110px;
 	/*border-bottom: 1px solid #333;*/
 }
+
 
 #anynous ul li input[type=radio]{
   position: absolute;
@@ -564,8 +566,8 @@ li.tot { width:45% !important;}
 			height: 100px !important;
 			font-size: 30px;
 		}
-.list-heading h2 { font-size: 21px;}
-.list-text { font-size: 15px;}
+/*.list-heading h2 { font-size: 21px;}
+.list-text { font-size: 15px;}*/
 		}
 @media only screen and (max-width: 767px)
 		{
@@ -610,11 +612,14 @@ li.tot { width:45% !important;}
 				.paid-nav-tabs > li > a, .paid-nav-tabs > li > a:hover, .paid-nav-tabs > li > a:focus {padding: 15px 20px !important; font-size: 20px;}
 				#tab-ad7a .nav-item { width: 33% !important;}
 				#anynous ul li { float: none;}
-				.list-heading h2 { font-size: 18px;}
+				/*.list-heading h2 { font-size: 18px;}*/
 				.nav-tabs>li>a {font-size: 18px;}
 				.nav-tabs>li.active>a{font-size: 18px;}
         .knettz {margin-right: -20% !important;}
         .vizza {right: -2%;}
+        .list-heading h2{ display: block; width:85%}
+        .list-heading:before {top:32%;}
+        .list-heading.active:before {top: 47%;}
 		}
 		@media only screen and (max-width: 543px)
 				{
@@ -644,7 +649,7 @@ li.tot { width:45% !important;}
 			 .nav-tabs>li>a {font-size: 15px;}
 			 .nav-tabs>li.active>a{font-size: 15px;}
        .knettz {margin-right: -12% !important;}
-       .vizza {right: 0%;}
+       .vizza {right: -8%;}
 		}
 		@media only screen and (max-width: 475px)
 				{
