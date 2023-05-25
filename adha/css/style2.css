@@ -97,7 +97,7 @@ border-radius: 25px !important;
   border-color: #CFCFCF!important;}
 .don-damd small{color: #FFFFFF!important;}
 .do-na{font-family: 'Tajawal', sans-serif !important; }
-#tab-ad7a small { font-family: 'Tajawal', sans-serif !important;}
+#tab-ad7a small { font-family: 'Tajawal', sans-serif !important;display: block;margin-top: 15px;font-size: 24px;line-height: 34px;}
 .fildo { padding-top: 20px;}
 #tab-ad7a .form-control { display: flex; margin: auto; margin-top: 15px; height: 50px;}
 
@@ -171,7 +171,7 @@ color: #707070;}
 .tot-mon h2 {background: #ffffff; border-radius: 12px; height: 60px; line-height: 30px;margin-top: 15px; padding-top: 10px;font-family: 'Tajawal', sans-serif !important;font-style: normal;
 font-weight: 700;font-size: 32px;color: #87786C;}
 .tot-mon span { font-family: arial; color: color: #685A4D;}
-.tot-mon small {color: color: #685A4D;font-family: 'Tajawal', sans-serif !important;font-weight: 700;font-size: 32px !important;}
+.tot-mon small {color: color: #685A4D;font-family: 'Tajawal', sans-serif !important;font-weight: 700;font-size: 32px !important; display: inline-block !important;}
 /********************** box *******************/
 .aloz{ border: solid 1px #707070; margin: auto; padding: 20px 0 20px 0;margin-top: 35px;}
  #tab-ad7a .btn{ margin-right: 20px; border: none; padding: 15px;font-size: 20px;margin-top: 10px;}
@@ -615,7 +615,7 @@ li.tot { width:45% !important;}
 		{
 			.navtop{ width: 100%; margin: auto; padding: 0;}
 
-			#tab-ad7a .don-item, #tab-ad7a .don-damd {width: 90px !important;height: 90px !important;font-size: 28px;padding-top: 15%;}
+			#tab-ad7a .don-item, #tab-ad7a .don-damd {width: 80px !important;height: 80px !important;font-size: 28px;padding-top: 15%;}
 			#don-info textarea { font-size:15px ;}
 				.paid-nav-tabs > li > a, .paid-nav-tabs > li > a:hover, .paid-nav-tabs > li > a:focus {padding: 15px 20px !important; font-size: 20px;}
 				#tab-ad7a .nav-item { width: 33% !important;}
@@ -628,6 +628,7 @@ li.tot { width:45% !important;}
         .list-heading h2{ display: block; width:85%}
         .list-heading:before {top:32%;}
         .list-heading.active:before {top: 47%;}
+        #tab-ad7a small {margin-top: 0px; font-size: 18px;}
 		}
 		@media only screen and (max-width: 543px)
 				{
@@ -700,7 +701,6 @@ li.tot { width:45% !important;}
 			 #tab-ad7a .btn{ margin-right: 12px; border: none; padding: 10px;font-size: 14px;}
 			 #tab-ad7a .nav-item {padding: 0 5px 0 5px;}
 			 #tab-ad7a .don-item, #tab-ad7a .don-damd {margin-right: 5px;}
-			 .item-mon small { font-size: 20px !important;}
        .knettz {margin-right: 0% !important;}
 			 .vizza img { max-width: 165px;}
 			 .vizza  { padding-top: 24px !important;}
